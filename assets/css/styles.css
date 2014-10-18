@@ -10,7 +10,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #dae3e7;
+  background: black;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -114,7 +114,10 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
+  background: url("https://camo.githubusercontent.com/f88d160a67cb3e9b5765a3e44c227b517bfd6da9/68747470733a2f2f7261772e6769746875622e636f6d2f7076696f7474692f6f736d2d76697a2f6d61737465722f76697375616c697a6174696f6e732f332e6d65726765642e6a7067");
+  /*background: #f5f5f5;*/
+  background-size: cover;
+
   border-top: 10px solid #778492;
 }
 .header .btn {
@@ -125,7 +128,7 @@ iframe {
   margin-right: 30px;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: white;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
